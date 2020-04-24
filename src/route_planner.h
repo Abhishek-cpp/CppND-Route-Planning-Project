@@ -22,6 +22,8 @@ class RoutePlanner {
 
   private:
     // Add private variables or methods declarations here.
+    void Sort();
+
     std::vector<RouteModel::Node*> open_list;
     RouteModel::Node *start_node;
     RouteModel::Node *end_node;
